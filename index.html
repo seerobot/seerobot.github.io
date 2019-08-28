@@ -64,7 +64,23 @@
     border: solid 1px black; 
     float: left;
    }
-   
+   .myDiv {
+    position: relative;
+    z-index: 1;
+}
+
+.myDiv .bg {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(/images/i_am_mother.jpg) center center;
+    opacity: .4;
+    width: 100%;
+    height: 100%;
+}
   </style>
  </head>
  <body>
@@ -75,7 +91,7 @@
   <h2 style="text-align: center;"><a href="I-Am-Mother.html"> Фильм -  "Дитя робота.  </br> I Am Mother (2019)."</a></h2> </br>
 
 
- <a href="I-Am-Mother.html"><img src="http://SeeRobot.ru/images/i_am_mother.jpg" 
+ <a href="I-Am-Mother.html"><img src="http://seerobot.ru/images/i_am_mother.jpg" 
   width="492px" height="676px" alt="ДИТЯ РОБОТА"></a>
 
 </div>
@@ -106,5 +122,13 @@
 </div>
 
 </div>
+
+
+<div class="myDiv">
+    <div class="bg"></div>
+    Hi there
+</div>
+
+
   </body>
 </html>
