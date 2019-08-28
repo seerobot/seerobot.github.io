@@ -1,4 +1,3 @@
-    
   <!DOCTYPE html>
 <html>
  <head>
@@ -8,24 +7,33 @@
 <meta property="og:site_name" content="SeeRobot.ru - Фильмы о роботах.">
 <meta property="og:url" content="SeeRobot.ru">
 <meta property="og:description" content="РОБОТ И ЧЕЛОВЕК.">
-<meta property="og:image" content="http://SeeRobot.ru/SeeRobot.jpg">
+<meta property="og:image" content="http://SeeRobot.ru/images/SeeRobot.ru.jpg">
   
   <title>SeeRobot.ru - Фильмы о роботах. </title>
   <style>
    body{
-    background-color: #000; /* Цвет фона веб-страницы */
+    background: #000 url(images/td_fon.jpg)  no-repeat fixed;
+background-size: cover;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    /*background-size: 100%;  Современные браузеры */
    } 
    h2 {
     background-color: #000; /* Цвет фона под текстом параграфа */
     color: white; /* Цвет текста */
    }
      h1 {
-    background-color: black; /* Цвет фона под текстом параграфа */
-    color: #696969; /* Цвет текста */
+    font-family: Geneva, Arial, Helvetica, sans-serif; /* Шрифт  */
+    font-style: italic;
+      font-size: 250%; /* Размер шрифта в процентах */ 
+    /*background-color: black;  Цвет фона под текстом параграфа */
+    color: #fff; /* Цвет текста */
    }
    p {
     background-color: black; /* Цвет фона под текстом параграфа */
     color: white; /* Цвет текста */
+    font-family: Georgia, 'Times New Roman', Times, serif;
    }
       A {
           text-decoration: none;
@@ -44,98 +52,114 @@
      /* Добавляем полосы прокрутки overflow: scroll;*/
     background: #000; /* Цвет фона */
     padding: 0px; /* Поля вокруг текста */
-    border: 1px solid #333; /* Параметры рамки */
+    border: 0px solid #000; /* Параметры рамки */
    }
  .block1 { 
     text-align: center; 
-    width: 40%; 
+    width: 100%; 
     background: #070707;
-    padding: 5px;
-    padding-right: 20px; 
-    border: solid 1px black; 
+    padding: 0px;
+    padding-right: 0px; 
+    border: solid 0px black; 
     float: left;
    }
-   .block2 { 
-    text-align: center; 
-    width: 40%; 
-    background: #071516;
-    padding: 5px;
-    padding-right: 20px; 
-    border: solid 1px black; 
-    float: left;
+
+   table {width: 100%; border-spacing: 0; }
+   tr { }
+   tr:first-child td {
+    /*background-color:#00FFFF;*/
+    /* background-image:url("images/silver-star-animation.gif");*/
+    background-position:50% 50%;
+    background-size:contain;
+}
+   TD {
+    vertical-align: top; /* Выравнивание по верхнему краю ячейки */
+    text-align: center;
    }
-   .myDiv {
-    position: relative;
-    z-index: 1;
-}
-.myDiv:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: url(SeeRobot.jpg) center center;
-    opacity: .4;
-}
-.myDiv .bg {
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: url(SeeRobot.jpg) center center;
-    opacity: .4;
-    width: 100%;
-    height: 100%;
-}
+   
+    .two {    
+     background: transparent url(images/td_fon.jpg) no-repeat;
+      vertical-align: top;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+    }
+   .lc { /* Стиль для первой колонки */
+    text-align: center; /* Выравнивание по левому краю */
+    color: #fffacd; /* Цвет текста */
+   }
+   .even { /* Стиль для четных колонок */
+    background: #000; /* Цвет фона ЗЕЛЕНАЯ РАМКА */
+    
+    opacity: 0.7; /* Полупрозрачный фон */
+    filter: alpha(Opacity=70); /* Прозрачность в IE */
+    color: #fff; /* Цвет текста */
+   }
   </style>
  </head>
  <body>
-    <h1 style="text-align: center;">Фильмы о роботах. </h1></br>
- <div class="block">
-  
-<div class="block1">
-  <h2 style="text-align: center;"><a href="I-Am-Mother.html"> Фильм -  "Дитя робота.  </br> I Am Mother (2019)."</a></h2> </br>
-
-
- <a href="I-Am-Mother.html"><img src="http://seerobot.ru/images/i_am_mother.jpg" 
-  width="492px" height="676px" alt="ДИТЯ РОБОТА"></a>
-
-</div>
-
-<div class="block2">
+    <h1 style="text-align: center;">ФИЛЬМЫ О РОБОТАХ </h1></br>
+ 
+ <table cols="3" border="0%" width="100%" cellpadding="0" >
+   <tr>
+    <td>
+         <table>
+           <tr>
+              <td  width="492px"  class="lc even" > <div class="block">
+                 <div class="block1">
+                   <h2 style="text-align: center;"><a href="I-Am-Mother.html"> Фильм -  "Дитя робота.  </br> I Am Mother (2019)."</a></h2> </br>
+                     <a href="I-Am-Mother.html"><img src="http://seerobot.ru/images/i_am_mother.jpg" 
+     width="492px" height="676px" alt="ДИТЯ РОБОТА"></a>
+                 </div> </div>
+             </td>
+            </tr>
+            <tr>
+              <td    class="lc even">
+                 <div class="block1">
+                   <h2 style="text-align: center;">  <a href="robot_chitty_2.0.html">Робот ЧИТТИ (2019). </a></h2></br>
+                     <p style="text-align: center;">
+                       <a href="robot_chitty_2.0.html"> <img src="images/seerobot.ru_robot_chitty.jpg" width="100%" height="100%" alt="Робот ЧИТТИ"></a>
+                   </p> 
+               </div>
+             </td>
+            </tr>
+          </table>
+    </td>
+    
+    
+    
+    <td   width="45%">
+       <table>
+         <tr>
+           <td width="492px"    class="lc even">
+          <div class="block1">
 <p style="text-align: center;">
  <h2 style="text-align: center;"> <a href="ty_chelovek.html">Корейский сериал:</br> "А ТЫ ЧЕЛОВЕК?"</a></h2>  </p></br>
 
- <a href="ty_chelovek.html"> <img src="ty_chelovek2.jpg"  
-  width="60%" height="60%" alt="ty chelovek"></a>
+ <a href="ty_chelovek.html"> <img src="/images/seerobot.ru_ty_chelovek.jpg"  width="492px" height="676px" alt="ТЫ ЧЕЛОВЕК"></a>
  
 </div>
-</div>
-</br>
-
-<div class="block">
-<div class="block1">
-<h2 style="text-align: center;">  <a href="men_in_black.html">Люди в черном (2019). </a></h2></br>
-    <p style="text-align: center;">
-<a href="men_in_black.html"> <img src="men_in_black.jpg" width="100%" height="100%" alt="Люди в черном 2019"></a>
-</p>
-</div>
-<div class="block2">
-<h2 style="text-align: center;">  <a href="robot_chitty_2.0.html">Робот ЧИТТИ (2019). </a></h2></br>
-    <p style="text-align: center;">
-<a href="robot_chitty_2.0.html"> <img src="images/robot_chitty_2.0_g.jpg" width="100%" height="100%" alt="Робот ЧИТТИ"></a>
-</p>
-</div>
-
-</div>
-
-
+          </td>
+         </tr>
+         <tr>
+           <td    class="lc even">
+          <div class="block1">
+            <h2 style="text-align: center;">  <a href="men_in_black.html">Люди в черном (2019). </a></h2></br>
+                <p style="text-align: center;">
+                 <a href="men_in_black.html"> <img src="/images/seerobot.ru_men_in_black.jpg" width="100%" height="100%" alt="Люди в черном 2019"></a>
+                </p>
+            </div>
+          </td>
+         </tr>
+       </table>
+    </td>
+   </tr>
+  </table>
 
 
 
   </body>
 </html>
+  
+  
