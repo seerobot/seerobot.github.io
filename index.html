@@ -68,7 +68,17 @@
     position: relative;
     z-index: 1;
 }
-
+.myDiv:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(eeRobot.jpg) center center;
+    opacity: .4;
+}
 .myDiv .bg {
     position: absolute;
     z-index: -1;
