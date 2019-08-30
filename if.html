@@ -92,7 +92,11 @@ background-size: cover;
    .even { /* Стиль для четных колонок */
     opacity: 0.7; /* Полупрозрачный фон */
     filter: alpha(Opacity=70); /* Прозрачность в IE */
-    color: #fff; /* Цвет текста */
+     /* Цвет текста */
+   }
+       .even-n { /* Стиль для четных колонок */
+    opacity: 1; /* Прозрачность фона */
+    
    }
   </style>
  </head>
@@ -104,8 +108,8 @@ background-size: cover;
    <tr>
      <td  class="lc even" >
      <blockquote>
-       <h1 style="text-align: center;"><strong>LPcourse1.mp4</strong></h1>
-        <p style="text-align: center;">
+       <h1 style="text-align: center; color: #000;"><strong>LPcourse1.mp4</strong></h1>
+        <p style="text-align: center;"  class="even-n" >
           <iframe src="https://drive.google.com/file/d/12sF9OM12-u-vojtz1FASqAhJnApkhvmM/preview" width="640" height="480"></iframe>
          </p>
      </blockquote>
