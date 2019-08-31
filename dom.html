@@ -63,6 +63,8 @@ background-size: cover;
    
    div
 {  margin-bottom: 50px;
+	opacity: 0.7; /* Полупрозрачный фон */
+    filter: alpha(Opacity=70); /* Прозрачность в IE */
 }
 div::before
 {
@@ -156,8 +158,7 @@ div::before
 			padding: 5px;
 			border-radius: 5px;
 			color: white; /* Цвет ссылок */
-	   opacity: 0.7; /* Полупрозрачный фон */
-    filter: alpha(Opacity=70); /* Прозрачность в IE */
+	   
      /* Цвет текста */
 			margin: 10px 0 10px 0; 
 		}
