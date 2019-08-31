@@ -56,6 +56,23 @@ background-size: cover;
     margin: 10px; /* Отступы вокруг */
     color: white;
    }
+   
+   div
+{
+  display: inline-block;
+  position: relative;    
+}
+div::before
+{
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background:red;
+  opacity: .2;
+}
  </style>
  </head>
  <body><div class="block1 even">
