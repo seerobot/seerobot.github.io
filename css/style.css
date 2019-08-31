@@ -1,0 +1,19 @@
+/*
+	 CSS-Tricks Example
+	 by Chris Coyier
+	 http://css-tricks.com
+*/
+
+* { margin: 0; padding: 0; }
+html { overflow-y: scroll; }
+body { font: 14px Georgia, serif;  }
+
+article, aside, figure, footer, header, hgroup,
+menu, nav, section { display: block; }
+
+#page-wrap { width: 500px; margin: 200px auto;  }
+
+h1 { font: bold 36px Sans-Serif; margin: 0 0 20px 0; }
+
+p { margin: 20px 0; }
+h3 { cursor: pointer; }
