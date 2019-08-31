@@ -98,14 +98,14 @@ div::before
 			
 			/* Предовращаем мерцание в Safari 5.1 */
 			-webkit-backface-visibility: hidden;
-			/*
+			/*  */
 			background-color: #eeeeee;
 			background-image: -webkit-gradient(linear, left top, left bottom, from(#eeeeee), to(#999999)); 
 			background-image: -webkit-linear-gradient(top, #eeeeee, #999999); 
 			background-image:    -moz-linear-gradient(top, #eeeeee, #999999); 
 			background-image:     -ms-linear-gradient(top, #eeeeee, #999999); 
 			background-image:      -o-linear-gradient(top, #eeeeee, #999999); 
-			*/				
+							
 			-moz-border-radius:    20px; 
 			-webkit-border-radius: 20px; 
 			border-radius:         20px; 
@@ -188,10 +188,10 @@ div::before
     
 .layer {
     overflow-x: scroll; /* Добавляем полосу прокрутки */
-    width: 300px; /* Ширина блока */
-    height: 150px; /* Высота блока */
+    width: 100%;; /* Ширина блока */
+    height: 100%;; /* Высота блока */
     padding: 5px; /* Поля вокруг текста */
-    border: solid 1px black; /* Параметры рамки */
+    border: solid 8px white; /* Параметры рамки */
     white-space: nowrap; /* Запрещаем перенос строк */
    } 
 	</style>
