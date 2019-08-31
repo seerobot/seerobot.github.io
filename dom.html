@@ -186,7 +186,14 @@ div::before
 		.title { display: block; font-weight: bold; margin: 0 0 10px 0; color: black; font: bold 16px Sans-Serif; text-decoration: none; }
 		.copy { color: black; text-decoration: none;  }
     
-
+.layer {
+    overflow-x: scroll; /* Добавляем полосу прокрутки */
+    width: 300px; /* Ширина блока */
+    height: 150px; /* Высота блока */
+    padding: 5px; /* Поля вокруг текста */
+    border: solid 1px black; /* Параметры рамки */
+    white-space: nowrap; /* Запрещаем перенос строк */
+   } 
 	</style>
  </head>
  <body><div class="block1 even">
@@ -199,7 +206,7 @@ div::before
 			ФИЛЬМЫ О РОБОТАХ
 		   </span>
 		   <span class="box">
-			   <iframe src="http://seerobot.ru/" width="600" height="200" scrolling="no" align="left">
+			   <iframe src="http://seerobot.ru/" width="600" height="600" scrolling="no" class="layer" align="left">
        				Ваш браузер не поддерживает плавающие фреймы!
      			   </iframe>
 		   </span>
